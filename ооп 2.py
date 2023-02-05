@@ -9,4 +9,8 @@ class math:
          print( self.a/self.b)
     def subtraction(self):
          print(self.a - self.b)
-
+math_obj=Math(4,2)
+print(' addition',math_obj.addition())
+print(' multiplication',math_obj. multiplication())
+print(' division',math_obj.division())
+print(' subtraction',math_obj.subtraction())
